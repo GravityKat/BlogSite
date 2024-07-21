@@ -24,7 +24,7 @@ body {
   border: gray 0.00001vw solid;
   box-shadow: 1px 1px 1px gray;
   border-radius: 5px;
-  padding: 5px 0;
+  padding: 1.5vw 1.5vw;
   position: absolute;
   z-index: 1;
   top: 125%;
