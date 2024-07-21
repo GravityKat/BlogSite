@@ -1,0 +1,140 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Whitney-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* ------------------------------ Tooltip Code ------------------------------ */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #3366CC;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 30vw;
+  height: auto;
+  background-color: #ffff;
+  color: #041E42;
+  text-align: center;
+  border: gray 0.00001vw solid;
+  box-shadow: 1px 1px 1px gray;
+  border-radius: 5px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  /* Position the tooltip below the text */
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  font-weight: normal;
+  font-size: 1vw;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  /* Arrow will be at the top of the tooltip */
+  left: 20%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
+}
+
+.tooltip:hover {
+  text-decoration: underline;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* ------------------------------- Title Block ------------------------------ */
+
+.blog-title-block {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-image: url(https://bme.ubc.ca/wp-content/uploads/2021/06/SBME_Header_Images_DESKTOP_Home.png);
+  height: 50vh;
+}
+
+.blog-title-block h1 {
+  font-size: 7vw;
+  color: white;
+}
+
+.blogtitle {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.blogtitle h2 {
+  font-size: 3vw;
+  font-weight: 800;
+  position: relative;
+  margin-top: 5%;
+  left: 10%;
+  width: 80%;
+  color: #041E42;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding-bottom: 20vh;
+}
+
+.section h3 {
+  font-weight: 800;
+  font-size: 2vw;
+  color: #041E42;
+}
+
+.section p {
+  width: 80%;
+  font-size: 1.5vw;
+  color: #041E42
+}
+
+.section #boldtext {
+  font-weight: bold;
+}
+
+.imgcontainer {
+  padding: 4vh 0;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imgcontainer img {
+  width: 40vw;
+  height: auto;
+}
+
+.section a {
+  font-style: italic;
+  color: #3366CC;
+  text-decoration: none;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
