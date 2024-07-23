@@ -12,11 +12,12 @@ body {
   display: inline-block;
   cursor: pointer;
   color: #3366CC;
+  font-weight: bold;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 30vw;
+  width: 20vw;
   height: auto;
   background-color: #ffff;
   color: #041E42;
