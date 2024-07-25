@@ -139,3 +139,15 @@ body {
 .section a:hover {
   text-decoration: underline;
 }
+
+.citation {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.citationscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
