@@ -99,6 +99,12 @@ body {
   padding-bottom: 20vh;
 }
 
+.section h2 {
+  font-weight: 800;
+  font-size: 4vw;
+  color: #041E42;
+}
+
 .section h3 {
   font-weight: 800;
   font-size: 2vw;
